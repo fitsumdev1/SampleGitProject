@@ -25,6 +25,7 @@ public class MavenP {
 		Thread.sleep(2000);
 		driver.findElementById("com.google.android.apps.messaging:id/recipient_text_view").sendKeys("2144362331");
 		Thread.sleep(2000);
+		System.out.println("Checking the git code");
 		
 		
 		
